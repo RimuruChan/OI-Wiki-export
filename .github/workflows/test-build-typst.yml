@@ -1,6 +1,7 @@
 name: Build Typst document
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
@@ -47,7 +48,7 @@ jobs:
           cd ..
           cp -r fonts/* .fonts
 
-          git clone https://github.com/OI-wiki/OI-wiki.git --depth=1 --single-branch -b master
+          git clone https://github.com/RimuruChan/OI-wiki.git --depth=1 --single-branch -b master
           cd remark-snippet
           npm install
           cd ..
