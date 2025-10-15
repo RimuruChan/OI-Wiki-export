@@ -176,6 +176,7 @@ async function main() {
   }
 
   function getLabel(obj) {  
+    if (obj == undefined) return 'intro'
     if (obj instanceof Array) {
       let idx = 0
       let label = ''
