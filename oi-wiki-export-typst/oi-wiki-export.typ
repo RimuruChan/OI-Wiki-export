@@ -25,10 +25,10 @@
   header-ascent: .3in,
   fill: luma(95%),
   margin: (
-    top: 1.2cm,
-    bottom: 1.2cm,
-    left: 1.2cm,
-    right: 1.2cm,
+    top: 1.8cm,
+    bottom: 1.8cm,
+    left: 1.8cm,
+    right: 1.8cm,
   ),
 )
 
